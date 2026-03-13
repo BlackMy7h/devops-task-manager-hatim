@@ -41,3 +41,8 @@ jobs:
           context: .
           push: true
           tags: ghcr.io/blackmy7h/task-manager-api:prod
+
+      - name: Run tests
+        run: npm test
+        env:
+          NODE_ENV: test
