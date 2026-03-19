@@ -40,4 +40,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/BlackMy7h/task-manager-api:prod
+          tags: ghcr.io/blackmy7h/task-manager-api:prod
